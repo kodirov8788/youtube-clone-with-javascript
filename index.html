@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <i class="fas fa-bars" id="hamburger__menu"> </i>
+    <!-- <i class="fas fa-times cancel" id="cancel"></i> -->
+    <div class="sidebar">
+        <div class="items">
+            <div class="sidebar__logo">
+                <div class="close__icon"><i class="fas fa-times cancel" id="cancel"></i></div>
+                <a href="#"><img class="youtube__image" src="./2560px-YouTube_Logo_2017.svg.png" alt=""></a>
+                <hr>
+            </div>
+
+            <li class="active">
+                <a href="#"><i class="fas fa-qrcode"></i>Dashboard</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-link"></i>Shortcuts</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-stream"></i>Overview</a>
+            </li>
+            <hr>
+            <li>
+                <a href="#"><i class="fas fa-calendar-week"></i>Events</a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-question-circle"></i>About</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-sliders-h"></i>Services</a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-envelope"></i>Contact</a>
+            </li>
+            <hr>
+            <div class="accordian">
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-alt"></i>User</a>
+                </li>
+
+            </div>
+            <li class="acc__click">
+                <a href="#"><i class="fas fa-chevron-down"><span> Show More</span></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-calendar-week"></i>Events</a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-question-circle"></i>About</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-sliders-h"></i>Services</a>
+            </li>
+            <li>
+                <a href="#"><i class="far fa-envelope"></i>Contact</a>
+            </li>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <header>
+
+        <div class="nav_logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png" alt=""></div>
+
+        <form action="">
+            <input type="text" placeholder="Search">
+            <button><i class="fas fa-search-plus"></i></button>
+            <a href="#"><i class="fas fa-microphone"></i></a>
+        </form>
+        <div class="icon__group">
+            <a href="#"><i class="fas fa-video"></i></a>
+            <a href="#"><i class="fas fa-braille"></i></a>
+            <a href="#"><i class="far fa-bell"></i></a>
+            <a href="#"><i class="far fa-user-circle"></i></a>
+        </div>
+    </header>
+    <div class="container-1">
+        <div class="row ">
+            <div class="col-8 video_section">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/gooWdc6kb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="footer-icons ">
+                    <div class="main_footer_left">
+                        <h5>Playing with family</h5>
+                        <p>4,600,600 jun 5, 2021</p>
+                    </div>
+                    <div class="main_footer_right">
+                        <button class="like__btn button m-2" style="border: none; padding: 0 30px; background-color: #fff; font-size: 30px;">
+                            
+                            <span id="icon">
+                                <i class="far fa-thumbs-up " ></i>
+                            </span>
+                            <span id="count">0</span>
+                        </button>
+                        <button class="dislike__btn" style="border: none; padding: 0 30px; background-color: #fff; font-size: 30px;">
+                            <span id="icon2">
+                                <i class="far fa-thumbs-down" ></i>
+                            </span>
+                            <span id="count2">0</span>
+                        </button>
+                        <button class="share__btn" style="border: none; padding: 0 30px; background-color: #fff; font-size: 20px;">
+                            <span id="icon3">
+                                <i class="fas fa-share" style="font-size: 30px;"  ></i>Share
+                            </span>
+                            
+                        </button>
+                        <button class="like__btn" style="border: none;  padding: 0 30px; background-color: #fff; font-size: 20px;">
+                            <span id="icon">
+                                <i class="fas fa-hdd" style="font-size: 30px;"  ></i>
+                            </span>
+                           
+                        </button>
+                        <button class="like__btn" style="border: none;  padding: 0 30px; background-color: #fff; font-size: 20px;">
+                            <span id="icon">
+                                <i class="fas fa-ellipsis-h" style="font-size: 30px;"  ></i>
+                            </span>
+                           
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6"><iframe width="100%" height="120" src="https://www.youtube.com/embed/gooWdc6kb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-6">
+                        <h5>Playing with family</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><iframe width="100%" height="120" src="https://www.youtube.com/embed/gooWdc6kb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-6">
+                        <h5>Playing with family</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><iframe width="100%" height="120" src="https://www.youtube.com/embed/gooWdc6kb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-6">
+                        <h5>Playing with family</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><iframe width="100%" height="120" src="https://www.youtube.com/embed/gooWdc6kb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-6">
+                        <h5>Playing with family</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="back"></div>
+    <div class="surface">
+        <button class="close__btn">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <h1>Is this Okey or Not?</h1>
+        <a href="https://youtu.be/gooWdc6kb80">https://youtu.be/gooWdc6kb80</a>
+    </div>
+
+    <script src="./App.js"></script>
+</body>
+
+</html>
